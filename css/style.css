@@ -26,7 +26,6 @@
     align-items: center;
     top: 5%;
     right: 5%;
-    background-color: #c52f00;
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -37,4 +36,15 @@
     transition: all 0.2s ease-in-out;
     color: aliceblue;
     text-decoration: none;
+}
+
+.brand-background {
+    position: absolute;
+    top: 0px;
+    margin-left: -20px;
+    height: 113px;
+    background-color: #ffffff9e;
+    width: 288px;
+    z-index: -1;
+    border-radius: 0 80px;
 }
