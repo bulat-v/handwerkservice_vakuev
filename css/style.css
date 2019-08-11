@@ -49,6 +49,16 @@
     border-radius: 0 80px;
 }
 
+.hvsv-card {
+    height: 250px;
+}
+
+
+.hvsv-card a {
+    bottom: 10px;
+    position: absolute;
+}
+
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -63,13 +73,38 @@ Bootstrap 4 breakpoints
     .md-h4-size {
         font-size: 26px !important;
     }
+
+    .py-5 .carousel-inner {
+        height: 400px !important;
+    }
+
+    .py-5 .carousel-inner .hvsv-card {
+        height: 380px !important;
+    }
 }
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {}
+@media (min-width: 544px) {
+
+    .py-5 .carousel-inner {
+        height: 400px;
+    }
+
+    .py-5 .carousel-inner .hvsv-card {
+        height: 380px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+    .py-5 .carousel-inner {
+        height: 400px !important;
+    }
+
+    .py-5 .carousel-inner .hvsv-card {
+        height: 380px !important;
+    }
 
     .py-5 .carousel-inner .active,
     .py-5 .carousel-inner .active+.carousel-item {
